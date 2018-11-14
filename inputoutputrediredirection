@@ -1,0 +1,21 @@
+I/O redirection
+
+
+stdin 0
+stdout 1
+stderr 2
+
+
+>  
+
+>>
+
+<
+
+
+& used with redirection to signal that a file descriptoe is being used.
+
+2>&1 combine stderr and stadard output
+
+2>file Redirect standad erro to a file
+

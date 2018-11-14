@@ -1,0 +1,82 @@
+rm file Remove file
+
+--> rm -r dir 
+remove the directory and its contents recursively
+
+rm -f file
+
+
+ls s*
+rm s*
+ls -d .*
+
+
+copy files
+
+cp sourvce and destination
+
+cp -i
+
+cp -r source_directiry destination
+
+
+check diif within file through 
+
+diff
+
+cp file1 file2
+-i stands for interactive mode
+
+cp 
+
+
+to move file
+
+mv 
+mv source destination
+mv -i source destination
+
+eg. mv dir firstdir
+
+Sorting data
+
+sort file 
+sort text in file
+
+eg: using this with sort
+-k F // by the second field
+-R reverse order
+-u unique order // remove duplicate
+
+
+Creating a collection of files
+
+tar [-] c|x|t f tarfile [path]
+
+some of the commonly used tar options
+
+c create a tar archive
+x extract files from the archive
+t displat the table of contents
+v be verbose
+z use compression
+f file use this file
+
+eg. 
+tar cf tps.tar tpsreports
+tar tf tps.tar
+tar xf tps.tar
+
+compress file
+
+gzip
+gunzip
+gzcat concatenates compressed files
+zcat 
+
+Disk usage
+
+du
+du -k
+du -h 
+

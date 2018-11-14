@@ -1,0 +1,51 @@
+What wildcards are.
+
+a charater or a string used for pattern matching.
+- globbing expands the wildcard pattern into a list of files and/or directories. (path) 
+-wildcrad can be used with most commands
+
+ls
+rm
+cp
+
+
+Wildcards:
+
+-- *-matches zero or more characters
+*.txt
+a*
+a*.txt
+-- ?-matches exactly one charater
+?.txt
+a?
+a?.txt
+
+
+charater class
+[aeiou]
+ca[nt]*
+can
+
+[!] matches any of the charaters NOT included between the brackets. Matches excatly one charaters.
+[!aeiou]*
+
+
+[[:alpha:]]
+alnum  
+digit
+lower
+space
+upper
+
+escpae charaters:
+\ - escape charater.
+
+*\?
+
+eg: done?
+
+
+eg:
+mv *.mp3 music/
+
+

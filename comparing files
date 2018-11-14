@@ -1,0 +1,12 @@
+Comparing files
+
+diff file1 file2 < ---- >
+
+sdiff file1 file2  < | >
+
+vimdiff file1 file2 
+
+ctrl-w w
+:q
+:qa
+:qa! force quit
