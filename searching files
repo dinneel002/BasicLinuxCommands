@@ -1,0 +1,56 @@
+the grep command
+
+grep display lines matching
+
+grep patterm file
+
+-i ignoring case
+-c count number of occurrences
+-n precede o/p lines
+-v invert matching
+
+file command
+
+file file_name
+
+file sales.data
+sales.data: ASCII text
+file *
+
+use two different commands using pipe
+
+cat file | grep pattern
+
+cut[file]
+
+-d delimiter
+-f n
+//// searching and pipe example
+
+find all users named "bob" in /etc/passwd
+
+print account name and real name
+
+print in alphabetical order by account
+print in a tabular format
+
+grep bob /etc/passwd
+
+
+grep bob /etc/passwd | cut -d: -f1,5
+
+
+grep bob /etc/passwd | cut -d: -f1,d | sort
+
+grep bob /etc/passwd | cut -d: -f1,d | sort | tr ":" " "
+
+grep bob /etc/passwd | cut -d: -f1,d | sort | tr ":" " " | column -t
+
+piping Output to a pager
+
+more
+less
+
+cat /etc/passwd
+
+less etc/passwd

@@ -1,0 +1,23 @@
+scp - secure copy
+sftp- ssh file transfer protocol
+
+
+cyberduck
+filezilla
+winscp
+
+ftp host // not a secure client protocol
+
+eg:
+
+sftp linuxsrv
+
+pwd
+lpwd
+lls
+
+put z.txt
+
+
+
+

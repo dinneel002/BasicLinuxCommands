@@ -1,0 +1,41 @@
+alisa [name[=value]]
+
+list create aliases
+
+Fix Typos:
+$ alias grpe='grep'
+
+Make linux behave like another OS.
+
+$alias cls='clear'
+
+To remove an alias:
+
+unalias name 
+
+Remove all aliases
+
+unalias -a
+
+Add aliases to your presonal initialization files.
+.bash_profile
+
+ls -l as an alias
+
+alias ll='ls -l'
+
+clear
+alias cls='clear'
+
+to list alias
+
+alias
+
+to make them persist:
+
+add them to the .bash_profile
+
+alias mycls='clear'
+
+logout and the logback in to check
+

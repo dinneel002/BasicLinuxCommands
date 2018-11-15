@@ -1,0 +1,33 @@
+use an environment varable to customize
+
+bash,ksh and sh use $PS1
+
+Csh,tcsh and zsh use $prompt
+
+
+\d date in weekday
+
+\h hostname up to first period
+
+\H hostname\n newline
+\t current time 24hrs
+\T current time in 12h
+
+\@ am pm
+\A
+\u
+\w
+\W
+\$ 
+
+
+echo $PS1
+
+eg: PS1="<\t \u@\h \w>\$"
+"\d \t \h \W>\$"
+
+***********
+if you want to persist changes:
+
+vi .bash_profile
+
