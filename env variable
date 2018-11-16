@@ -1,0 +1,36 @@
+to see the environment variables:
+
+printenv are case sensitive
+
+printenv HOME
+
+env variables are upper case
+
+echo $HOME
+
+
+creating an env variables
+
+export VAR="value"
+
+eg:
+
+export EDITOR="vi"
+
+export TZ="US/Pacific"
+
+Remove Envi Variable:
+
+unset VAR
+
+Eg
+unset TZ
+
+Persisting Envi
+
+$ cat ~/.bash_profile
+export TZ="US/Central"
+
+
+
+

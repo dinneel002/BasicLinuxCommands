@@ -1,0 +1,75 @@
+list running proceses
+foreground vs background processes
+launch background processes
+kill processes
+
+
+
+ ps command
+
+ -e
+ -f
+ -u username   
+ -p pid
+
+ ps -e displ all proceses
+
+ ps -ef proceses,full
+
+ ps -eH proceses tree
+
+ ps -e --forest proceses tree
+
+ ps -u username user's processes
+
+ pstree
+ top interactive 
+ htop less common than top
+
+
+ eg:
+
+ ps --forest
+
+ ps -ef 
+
+ background and foreground program
+
+
+ command & start command in background
+
+ ctrl-c
+ ctrl-z
+
+ bg[%num] background
+
+ fg[%num] foreground
+
+ kill kill pid
+
+ jobs [%num] list jobs
+
+
+ killing proceses
+
+ ctrl-c
+ kill [-sig] pid
+ kill -l
+
+ eg
+
+ kill 
+123
+kill -15
+
+
+
+ps
+ctrl-c
+ctrl-z
+bg
+fg
+jobs
+kill
+
+

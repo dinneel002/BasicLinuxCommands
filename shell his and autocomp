@@ -1,0 +1,60 @@
+Executed commands are added to the history
+
+shell history can be displayed and recalled
+
+shell history is sorted in memory and on disk
+
+-- ~/.bash_histroy
+-- ~/.history
+-- ~/.histfile
+
+history:
+
+!N Repeat command line number number
+
+!! repeat the previous command line
+
+!string 
+
+!:N <Event> <Separator> <Word>
+! Represent a command line (or event)
+
+ != the most recent command line
+ !=!!
+
+:N Represent a word on the command line 
+0==command, 1=first argument, etc
+
+
+!^ the first argument
+!^ = !:1
+!$ last argumnet
+
+$head files.txt 
+!^=files.txt
+!$=notes.txt
+
+Searching Shell history
+
+ctrl-r reverse shell history Search
+
+enter execute the command
+
+arrows change the command
+
+ctrl-g cancel the serach
+
+Tab Completion:
+
+history eg:
+
+!1
+
+previous command: !!
+
+!h 
+
+!2
+
+
+

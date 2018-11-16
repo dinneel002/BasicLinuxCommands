@@ -1,0 +1,34 @@
+su [username] change user ID or become supre user
+
+
+- used an env
+
+-c specify command to be executed
+
+whoami
+
+eg
+
+su - oracle
+
+sudo : execute a command as another user typically the superuser
+
+sudo -l
+sudo command
+sudo -u root
+sudo -u user 
+
+sudo su
+
+sudo su - super user account with root env
+
+sudo su - usaername switch to the username account
+
+sudo -s
+sudo -u root -s
+
+change the sudo congif
+
+visudo edit /etc/sudoers file
+
+
